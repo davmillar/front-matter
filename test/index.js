@@ -209,6 +209,11 @@ test('fm.test(string) - no front-matter', function (t) {
   t.end()
 })
 
+test('fm.test() - handles missing argument fine', function (t) {
+  t.equal(fm.test(), false)
+  t.end()
+})
+
 test('Supports live updating', function (t) {
   var seperator = '---'
   var string = ''

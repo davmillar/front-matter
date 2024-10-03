@@ -100,7 +100,7 @@ front-matter is an OPEN Source Project so please help out by [reporting bugs](ht
 
 ![standard][standard-img]
 
-All code is linted/formatted using [standard][standard-url] style, any non-conforming code can be automatically formatted using the the fmt make task: `make fmt`.
+All code is linted/formatted using [standard][standard-url] style, any non-conforming code can be automatically formatted using the the fmt npm task: `npm run fmt`.
 
 ## Maintainers
 
@@ -128,12 +128,19 @@ This module is awesome because of all the folks who submitted pull requests:
 - [Martin Heidegger](https://github.com/martinheidegger)
 - [Leo Liang](https://github.com/aleung)
 - [Kasper Pedersen](https://github.com/kasperpedersen)
+- [David Millar](https://github.com/davmillar)
 
 # CHANGELOG
 
+## 5.0.0
+- BREAKING: Drop Node < v18. Officially support 18, 20, 22.
+- Restructure development and CI tools.
+- Added test coverage.
+- Dependency updates.
+
 ## 3.0.0
-* CI only tests Node versions >= v6 (drops v4, and v5)
-*
+- CI only tests Node versions >= v6 (drops v4, and v5)
+
 
 # LICENSE (MIT)
 
