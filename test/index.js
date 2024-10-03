@@ -8,7 +8,7 @@ test('var fm = require("front-matter")', function (t) {
   t.end()
 })
 
-test('fm(string) - parse yaml delinetead by `---`', function (t) {
+test('fm(string) - parse yaml delineated by `---`', function (t) {
   fs.readFile(
     path.resolve(__dirname, '../examples/dashes-seperator.md'),
     'utf8',
@@ -37,7 +37,7 @@ test('fm(string) - parse yaml delinetead by `---`', function (t) {
     })
 })
 
-test('fm(string) - parse yaml delinetead by `= yaml =`', function (t) {
+test('fm(string) - parse yaml delineated by `= yaml =`', function (t) {
   fs.readFile(
     path.resolve(__dirname, '../examples/yaml-seperator.md'),
     'utf8',
